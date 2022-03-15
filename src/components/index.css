@@ -1,0 +1,76 @@
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body {
+        background-color: #E0BBE4;
+    }
+    
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .example-wrap {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .example-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 5rem);
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        gap: 30px;
+    }
+    
+    .example-button {
+        /* margin: 1rem;
+        color: white;
+        background: rgb(72, 22, 82);
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 400;
+        color: white;
+        background-color: rgb(72, 22, 82);
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(50, 3, 61, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin: 1.5rem;
+    }
+    
+    .example-button:hover {
+        background-color: rgb(120, 46, 134);
+        box-shadow: 0px 15px 20px rgba(212, 151, 248, 0.4);
+        color: #fff;
+        transform: translateY(-2px);
+    }
+    
+    .example-button:active {
+        transform: translateY(-1px);
+    }
+    
+    .square {
+        width: 5rem;
+        height: 5rem;
+        background-color: #957DAD;
+    }
